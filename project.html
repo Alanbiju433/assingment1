@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Biju's Projects</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+        </header>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="site report.html">Site report</a></li>
+                <li><a href="video demo.html">Demo video</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Description of Project 1</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Description of Project 2</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Description of Project 3</p>
+                </div>
+                <div class="project">
+                    <h3>Project 4</h3>
+                    <img src="project4.jpg" alt="Project 4">
+                    <p>Description of Project 4</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            nav.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Biju's Portfolio</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="icon" href="icon.webp" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>Alan Biju</h1>
+            <p>Hi, I'm Alan Biju. I am a BSc AI and Data Science student who likes to work more in fields related to AI. Looking forward to enjoying the tech world's beauty.</p>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+        </header>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="site report.html">Site report</a></li>
+                <li><a href="video demo.html">Demo video</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div>
+                <img src="me.jpg" alt="Alan Biju" class="circle-image">
+            </div>
+            <p>Life is like a rollercoaster, it has its ups and downs, but it's your choice to either scream or enjoy the ride. - Avril Lavigne</p>
+        </main>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            nav.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

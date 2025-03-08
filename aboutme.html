@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Biju's About Me</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+        </header>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="site report.html">Site report</a></li>
+                <li><a href="video demo.html">Demo video</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2><as>Hello, I'm Alan Biju</as></h2>
+            <ul>
+                <li><as>Age: 19</as></li>
+                <li><as>Date of birth: 18/01/2006</as></li>
+            </ul>
+            <as>Welcome to my personal page. Here is a little bit about myself:</as>
+            <img  src="me.jpg" alt="Alan Biju" class="circle-image">
+            <h3>Personal Information</h3>
+            <as>I am a bachelor's student in AI and Data Science at the University of Northampton.</as>
+            <as>My journey in education began in Kerala, where I completed my higher secondary education at GHSS Sadhanadhapuram with full A+ and a 92.45% score.</as>
+            <as>I also passed my SSLC with full A+ at St. Mary's HSS Kizhekketheruvu, achieving above 90%.</as>
+            <as>My professional experience spans various roles, including billing assistant at a dry-clean shop, waiter at Cousins Restaurant, hospitality staff at Constellation, and care home worker.</as>
+            <as>My skills include writing, Microsoft Excel, Word, PowerPoint, coding, and cooking.</as>
+            <as>I am passionate about soccer, writing, reading, artificial intelligence, and enjoying nature.</as>
+            <as>My achievements include district-level A grade in the Young Innovators Program 2024 and third position in the Kerala school-level science fair 2024.</as>
+            <as>I have also participated twice in the district-level A grade in the Young Innovators Program 2024 and third position in the Kerala school-level science fair 2024.</as>
+            <h4>Education</h4>
+            <as>Pursuing BSc AI and Data Science at the University of Northampton (2024-ongoing)</as>
+            <as>Completed plus two (A level) in G H S S Sadhanadhapuram, Kerala, INDIA (2022-2024) (Biology Science)</as>
+            <as>Completed SSLC (GCSE) in St. Mary's HSS Kizhekketheruvu, Kerala, INDIA (2021-2022)</as>
+            <h5>Skills</h5>
+            <as>Microsoft Word</as>
+            <as>Microsoft Excel</as>
+            <as>Microsoft PowerPoint</as>
+            <as>Calmness</as>
+            <as>Coding</as>
+            <as>Positivity</as>
+            <as>Communication</as>
+            <as>Continuous Learning</as>
+        </main>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            nav.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

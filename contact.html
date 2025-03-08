@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Alan Biju</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="hamburger" onclick="toggleNav()">☰</div>
+        </header>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="site report.html">Site report</a></li>
+                <li><a href="video demo.html">Demo video</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Me</h2>
+            <p>You can reach me using the contact form below:</p>
+            <form action="mailto:alanbiju17@gmail.com" method="post" enctype="text/plain">
+                <as>name</as>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <as>email id</as>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <as>type your message</as>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </main>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("nav-menu");
+            nav.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
