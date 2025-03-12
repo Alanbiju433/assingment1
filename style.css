@@ -18,8 +18,18 @@ h1,h2, {
     position: relative;
     left: 50px;
 }
-h3,h4,h5,h6 {
+h3,h4 {
     color: #EBA832;
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+    left: 50px;
+}
+h5,h6 {
+    color: #C1311C;
     font-size: 50px;
     text-align: left;
     font-family: 'Arial', sans-serif;
