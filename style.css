@@ -1,7 +1,7 @@
 h1 {
     color: turquoise;
     font-size: 50px;
-    animation: popOutSpin 1s ease-in-out;
+    animation: popOutSpin 3s ease-in-out;
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -11,7 +11,7 @@ h1 {
 h2 {
     color: turquoise;
     font-size: 50px;
-   animation: popOutSpin 1s ease-in-out;
+   animation: popOutSpin 3s ease-in-out;
     font-family: 'Arial', sans-serif;
     text-align: left;
     margin-top: 50px;
@@ -21,7 +21,7 @@ h2 {
 h3,h4 {
     color: #EBA832;
     font-size: 50px;
-   animation: popOutSpin 1s ease-in-out;
+   animation: popOutSpin 3s ease-in-out;
     font-family: 'Arial', sans-serif;
     text-align: left;
     margin-top: 50px;
@@ -31,7 +31,7 @@ h3,h4 {
 h5,h6 {
     color: #C1311C;
     font-size: 50px;
-   animation: popOutSpin 1s ease-in-out;
+   animation: popOutSpin 3s ease-in-out;
     font-family: 'Arial', sans-serif;
     text-align: left;
     margin-top: 50px;
