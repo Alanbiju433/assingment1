@@ -112,6 +112,7 @@ nav {
     justify-content: center;
     background: turquoise;
     padding: 8px 0;
+    animation: slideUp 1s ease-in-out;
 }
 nav ul {
     display: flex;
