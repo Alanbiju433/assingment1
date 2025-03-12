@@ -8,12 +8,22 @@ h1 {
     position: relative;
     left: 50px;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2, {
     color: turquoise;
     font-size: 50px;
     text-align: center;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    margin-top: 50px;
+    position: relative;
+    left: 50px;
+}
+h3,h4,h5,h6 {
+    color: #EBA832;
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
     margin-top: 50px;
     position: relative;
     left: 50px;
@@ -29,7 +39,7 @@ p {
     position: relative;
     left: 50px;
 }
-p {
+as {
     display: block;
     color: white;
     font-size: 20px;
@@ -40,7 +50,7 @@ p {
     position: relative;
     left: 50px;
 }
-as, as label, as input, as textarea, as select {
+as label, as input, as textarea, as select {
     display: block;
     color: white;
     font-size: 20px;
