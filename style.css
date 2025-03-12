@@ -2,7 +2,7 @@ h1 {
     color: turquoise;
     font-size: 50px;
    animation: popUp 3s ease-in-out;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Liberation Sans', sans-serif;
     text-align: center;
     margin-top: 50px;
     position: relative;
@@ -12,7 +12,7 @@ h2 {
     color: turquoise;
     font-size: 50px;
    animation: popUp 3s ease-in-out;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Liberation Sans', sans-serif;
     text-align: left;
     margin-top: 50px;
     position: relative;
@@ -22,7 +22,7 @@ h3,h4 {
     color: #EBA832;
     font-size: 50px;
    animation: popUp 3s ease-in-out;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Liberation Sans', sans-serif;
     text-align: left;
     margin-top: 50px;
     position: relative;
@@ -32,7 +32,7 @@ h5,h6 {
     color: #C1311C;
     font-size: 50px;
    animation: popUp 3s ease-in-out;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Liberation Sans', sans-serif;
     text-align: left;
     margin-top: 50px;
     position: relative;
