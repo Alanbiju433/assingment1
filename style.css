@@ -234,13 +234,7 @@ body{
     object-fit: cover; 
 }
 
-.custom-img:hover {
+.custom-img:hover, .custom-img:active {
     transform: scale(3); 
-    z-index: 1; 
-    position: absolute; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto; 
+    transition: transform 0.3s ease-in-out; 
 }
