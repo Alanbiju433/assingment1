@@ -66,22 +66,22 @@ as label, as input, as textarea, as select {
     left: 0;
 }
 input, textarea {
-    background-color: #555; /* Optional: Set a dark background color for form inputs */
-    border: 1px solid #ccc; /* Optional: Set a border color for form inputs */
-    padding: 10px; /* Optional: Add padding to form inputs */
-    width: 100%; /* Optional: Set the width of form inputs to 100% */
-    box-sizing: border-box; /* Optional: Include padding and border in the element's total width and height */
+    background-color: #555; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 input[type="submit"] {
-    background-color: #007bff; /* Optional: Set a background color for the submit button */
-    color: white; /* Ensure the submit button text is white */
-    border: none; /* Remove the border from the submit button */
-    padding: 10px 20px; /* Add padding to the submit button */
-    cursor: pointer; /* Change the cursor to a pointer when hovering over the submit button */
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer; 
 }
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Optional: Change the background color when hovering over the submit button */
+    background-color: #0056b3; 
 }
 img {
     width: 200px;
@@ -217,24 +217,30 @@ body{
 .custom-img-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust the gap between the images as needed */
+    gap: 10px; 
 }
 
 .custom-img {
-    width: 150px; /* Adjust the width of the image box */
-    height: 150px; /* Adjust the height of the image box */
-    border-radius: 10px; /* Adjust the border radius for rounded corners */
-    overflow: hidden; /* Ensures the image fits within the box */
-    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .custom-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire box */
+    object-fit: cover; 
 }
 
 .custom-img:hover {
-    transform: scale(1.2); /* Zoom effect on hover */
-    z-index: 1; /* Ensures the hovered image appears on top */
+    transform: scale(3); 
+    z-index: 1; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
 }
