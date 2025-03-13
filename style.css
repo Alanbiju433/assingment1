@@ -240,11 +240,12 @@ body{
 }
 
 .footer-links {
-    display: flex;
+    display: cover;
     justify-content: center; 
     align-items: center;
     padding: 20px;
     background-color: #f4f4f4; 
     background-image:url(bg.gif);
+    bottom:-60px;
 }
 
