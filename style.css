@@ -54,7 +54,7 @@ p {
     margin-bottom: 5px;
 }
 
-as label, as input, as textarea, as select {
+label, input, textarea, select {
     display: block;
     color: white;
     font-size: 20px;
@@ -236,7 +236,7 @@ body{
 }
 
 .custom-img:hover{
-    transform: scale(cover) rotate(5deg);
+    transform: scale(3) rotate(5deg);
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
 
