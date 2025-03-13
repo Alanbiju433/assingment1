@@ -238,21 +238,13 @@ body{
     transform: scale(3); 
     transition: transform 0.3s ease-in-out; 
 }
-.social-logo {
-    width: 40px; /* Adjust size as needed */
-    height: 40px;
-    margin: 0 10px;
-    transition: transform 0.3s ease; /* For hover effect */
-}
 
-.social-logo:hover {
-    transform: scale(1.1); /* Slight zoom on hover */
-}
 .footer-links {
     display: flex;
-    justify-content: center; /* Center-align icons */
+    justify-content: center; 
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4; /* Optional background color */
+    background-color: #f4f4f4; 
+    background-image:url(bg.gif);
 }
 
