@@ -246,13 +246,12 @@ body{
 
 
 .footer-links {
-    display: cover;
+    display: flex;
     justify-content: center; 
     align-items: center;
     padding: 20px;
     background-color: black; 
-    bottom:-90px;
-    right: -100px;
+    
 }
 .social-logo {
     font-size: 24px;
