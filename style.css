@@ -248,4 +248,12 @@ body{
     
     bottom:-60px;
 }
-
+.social-logo {
+    font-size: 24px;
+    color: white; 
+    margin: 0 10px; 
+    transition: color 0.3s;
+}
+.social-logo:hover {
+    color: #007bff; 
+}
