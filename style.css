@@ -236,7 +236,7 @@ body{
 }
 
 .custom-img:hover{
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(cover) rotate(5deg);
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
 
