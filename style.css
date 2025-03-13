@@ -244,8 +244,8 @@ body{
     justify-content: center; 
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4; 
-    background-image:url(bg.gif);
+    background-color: black; 
+    
     bottom:-60px;
 }
 
