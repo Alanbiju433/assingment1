@@ -225,8 +225,9 @@ body{
     height: 150px; 
     border-radius: 10px; 
     overflow: hidden; 
-    transition: transform 0.3s ease-in-out; 
+     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
+
 
 .custom-img img {
     width: 100%;
@@ -234,10 +235,11 @@ body{
     object-fit: cover; 
 }
 
-.custom-img:hover, .custom-img:active {
-    transform: scale(3); 
-    transition: transform 0.3s ease-in-out; 
+.custom-img:hover{
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
+
 
 .footer-links {
     display: cover;
