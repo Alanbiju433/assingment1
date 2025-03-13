@@ -258,6 +258,7 @@ body{
     margin: 0 10px; 
     transition: color 0.3s;
     align-items: center;
+    align-text: center;
 }
 .social-logo:hover {
     color: #007bff; 
