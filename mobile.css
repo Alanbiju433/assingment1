@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .hamburger {
         display: block;
         display: block;
