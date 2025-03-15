@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
     <link rel="icon" href="icon.webp" type="image/x-icon">
+   
 </head>
 <body>
     <div id="content">
@@ -24,25 +25,36 @@
                 <li><a href="demovideo.html">Demo video</a></li>
             </ul>
         </nav>
-<script>
-        function toggleNav() {
-            var nav = document.getElementById("nav-menu");
-            nav.classList.toggle("show");
-        }
-    </script>
-    <noscript>Your browser does not support JavaScript!</noscript>
-    <footer>
-        <div class="footer-links">
-            <a href="https://www.instagram.com/egoistisagi_/?__pwa=1" target="_blank" rel="noopener noreferrer">
-               <i class="fab fa-instagram social-logo" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100012227791569" target="_blank" rel="noopener noreferrer">
-               <i class="fab fa-facebook social-logo" aria-hidden="true"></i>
-            </a>
-            <a href="mailto:alanbiju17@gmail.com">
-               <i class="fas fa-envelope social-logo" aria-hidden="true"></i>
-            </a>
+        
+        <div class="video-container">
+            <div class="video-box">
+                <video controls>
+                    <source src="https://mymedia.northampton.ac.uk/path_to_your_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
-    </footer>
+
+        <script>
+            function toggleNav() {
+                var nav = document.getElementById("nav-menu");
+                nav.classList.toggle("show");
+            }
+        </script>
+        <noscript>Your browser does not support JavaScript!</noscript>
+        <footer>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/egoistisagi_/?__pwa=1" target="_blank" rel="noopener noreferrer">
+                   <i class="fab fa-instagram social-logo" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100012227791569" target="_blank" rel="noopener noreferrer">
+                   <i class="fab fa-facebook social-logo" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:alanbiju17@gmail.com">
+                   <i class="fas fa-envelope social-logo" aria-hidden="true"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
