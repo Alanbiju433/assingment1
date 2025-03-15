@@ -92,8 +92,8 @@ as {
 }
 
 .video-box {
-    width: 100%;
-    max-width: 100%;
+    width: auto;
+    max-width: auto;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -102,6 +102,6 @@ as {
 }
 
 .video-box video {
-    width: 100%;
+    width: auto;
     height: auto;
 }
