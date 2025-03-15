@@ -248,3 +248,24 @@ body{
 .social-logo:hover {
     color: #007bff; 
 }
+ <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            padding: 20px;
+        }
+        .video-box {
+            width: 80%;
+            max-width: 800px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .video-box video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
