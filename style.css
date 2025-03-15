@@ -260,7 +260,7 @@ body{
             
 }
 .video-box {
-            width: 600px;
+            width: auto;
             max-width: auto;
             background-color: #f9f9f9;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -272,7 +272,7 @@ body{
     
 }
 .video-box video {
-            width: 600px;
+            width: auto;
             height: auto;
             position: ;
             top:10px;
