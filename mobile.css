@@ -9,7 +9,7 @@ body {
         "aside"
         "footer";
     background-color: cornflowerblue;
-    background-image:url(bg.gif);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -105,3 +105,4 @@ as {
     width: auto;
     height: auto;
 }
+
