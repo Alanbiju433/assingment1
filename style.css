@@ -167,7 +167,6 @@ nav ul li:hover > ul {
 }
 body{
     background-color: cornflowerblue;
-    background-image:url(bg.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -281,3 +280,4 @@ body{
 
 }
     
+
